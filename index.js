@@ -13,7 +13,7 @@ bot.onText(/\/start/, (msg) => {
 
   const chatId = msg.chat.id;
 
-  const text = " 🚨 🚨 Welcome to The Moontography Project! 🚨 🚨";
+  const text = "🚨 🚨 Welcome to The Moontography Project! 🚨 🚨";
 
   // send back info text to the chat
   bot.sendMessage(chatId, text);
