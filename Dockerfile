@@ -1,7 +1,9 @@
 FROM node:16
 
+LABEL AUTHOR="Cal Supik"
+
 # Create app directory
-WORKDIR /usr/src/app
+WORKDIR /usr/app
 
 # Copy app source
 COPY . .
