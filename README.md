@@ -1,7 +1,7 @@
 # moontography-telegram-bot
 Telegram Bot for Moontography
 
-## Developemnt
+## Development
 
 ```
 $ git clone https://github.com/moontography/moontography-telegram-bot
