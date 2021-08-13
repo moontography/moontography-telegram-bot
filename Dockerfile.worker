@@ -5,11 +5,14 @@ LABEL AUTHOR="Cal Supik"
 # Create app directory
 WORKDIR /usr/app
 
-# Copy app source
+# Install dependencies
+COPY package.json .
+
+RUN npm install
+
 COPY . .
 
-# Install dependencies
-RUN npm install
+RUN npm run build
 
 # Start app default commnand
 CMD npm start
