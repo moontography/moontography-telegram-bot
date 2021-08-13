@@ -17,7 +17,7 @@ $ cd moontography-telegram-bot
 $ docker build -t moontography-telegram-bot .
 
 # run docker container
-$ docker run moontography-telegram-bot -d
+$ docker run -d moontography-telegram-bot
 ```
 
 ### Manual
