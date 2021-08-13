@@ -1,4 +1,5 @@
 # moontography-telegram-bot
+
 Telegram Bot for Moontography
 
 ## Development
@@ -9,23 +10,24 @@ $ cd moontography-telegram-bot
 ```
 
 ### Enviornment Vars
+
 `TELEGRAM_BOT_TOKEN` - Telegram Bot Token (set in `.env` or pass as `-e` in `docker run` command)
 
 ### Docker
+
 ```
-# build docker image 
+# build docker image
 $ docker build -t moontography-telegram-bot .
 
 # run docker container
 $ docker run -d moontography-telegram-bot
 ```
 
-### Manual
-```
-# install dependencies
-$ npm install
+### Deploy
 
-# start server
-$ npm start
-```
+#### Heroku
 
+```
+$ heroku container:push web
+$ heroku container:release web
+```
