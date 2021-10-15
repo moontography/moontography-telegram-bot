@@ -28,6 +28,6 @@ $ docker run -d moontography-telegram-bot
 #### Heroku
 
 ```
-$ heroku container:push worker
-$ heroku container:release --recursive
+$ heroku container:push --recursive
+$ heroku container:release web worker
 ```
